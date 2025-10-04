@@ -1,0 +1,6 @@
+cd /Users/vladyslavshutkevych/Downloads/docker/fullstack-app/frontend
+npm install
+npm start
+
+curl http://localhost:3001/health
+curl http://localhost:3001/api/tasks

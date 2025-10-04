@@ -82,4 +82,3 @@ npm start
 # Build and start all containers
 docker compose up --build
 ```
-# Task-Manager
