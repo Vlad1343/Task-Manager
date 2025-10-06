@@ -15,13 +15,10 @@ start /b node server.js
 timeout /t 3 >nul
 
 echo.
-echo 🌐 Starting Frontend Server...
+echo Start Frontend server
 cd ..\frontend
 call npm install
 call npm start
 
 echo.
-echo ✅ Application started successfully!
-echo 📱 Frontend: http://localhost:3000
-echo 🔗 Backend: http://localhost:5000
 pause
